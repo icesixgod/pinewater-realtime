@@ -1,0 +1,15 @@
+Terrex Fast X GTX, Google Scanned Objects
+Copyright 2020 Google LLC. Creative Commons Attribution 4.0 International.
+https://app.gazebosim.org/GoogleResearch/fuel/models/TERREX_FAST_X_GTX
+https://creativecommons.org/licenses/by/4.0/
+This production converted the Google scan into meter-scaled indexed geometry, mirrored a second shoe, adjusted the color and reduced printing on the scanned texture, and compressed the texture for WebGL delivery.
+
+Denim Fabric 04, photographed by colormass and processed by Rico Cilliers, Poly Haven. CC0 1.0 Universal.
+https://polyhaven.com/a/denim_fabric_04
+https://creativecommons.org/publicdomain/zero/1.0/
+The photographed cotton texture and corresponding normal map were retinted, fitted to the trouser pattern, and furnished with hems and stitched seams. The modeled trouser legs and articulated folds were created for this scene.
+
+Denim Fabric, scanned by Rob Tuytel for Poly Haven. CC0 1.0 Universal.
+https://polyhaven.com/a/denim_fabric
+https://creativecommons.org/publicdomain/zero/1.0/
+The measured displacement, normal and color maps were registered to the trouser pattern for worn dye, sewn material and draped surface contours.

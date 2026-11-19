@@ -1,0 +1,53 @@
+松岸 · Pinewater
+场景几何、摄影纹理校准、动画、湖水、镜头和影片为本次重建制作。构图与可见物体纹理依据随附参考图。
+Three.js r169, MIT. See three.LICENSE.txt. Reflector.js is adapted from the official Three.js examples.
+Additional CC0 scans and photographic source materials from Poly Haven:
+https://polyhaven.com/a/rough_wood
+https://polyhaven.com/a/wood_trunk_wall
+https://polyhaven.com/a/aerial_rocks_01
+https://polyhaven.com/a/forest_ground_04
+https://polyhaven.com/a/mossy_rock
+https://polyhaven.com/a/grass_medium_01
+https://polyhaven.com/a/grass_medium_02
+https://polyhaven.com/a/shrub_02
+https://polyhaven.com/a/rock_moss_set_01
+https://polyhaven.com/a/dry_river_pebbles
+https://polyhaven.com/a/aerial_grass_rock
+https://polyhaven.com/a/weathered_brown_planks
+https://polyhaven.com/a/weathered_planks
+https://polyhaven.com/a/wood_planks_grey
+https://polyhaven.com/a/lacquered_cherry_wood
+https://polyhaven.com/a/wood_table_worn
+https://polyhaven.com/a/japanese_cedar_planks
+https://polyhaven.com/a/fir_tree_01
+https://polyhaven.com/a/pine_tree_01
+https://polyhaven.com/a/alps_field
+https://polyhaven.com/a/modular_wooden_pier
+https://polyhaven.com/a/coast_rocks_03
+https://polyhaven.com/a/old_stone_wall
+https://polyhaven.com/a/sand_rocks_small_01
+https://polyhaven.com/a/coast_land_rocks_04
+https://polyhaven.com/a/forrest_ground_03
+https://polyhaven.com/a/forest_leaves_02
+https://polyhaven.com/a/forest_leaves_03
+https://polyhaven.com/a/grass_bermuda_01
+https://polyhaven.com/a/moss_01
+https://polyhaven.com/a/wild_rooibos_bush
+https://polyhaven.com/a/fern_02
+https://polyhaven.com/a/periwinkle_plant
+https://polyhaven.com/a/dry_branches_medium_01
+https://polyhaven.com/a/shrub_01
+https://polyhaven.com/a/denim_fabric_04
+https://polyhaven.com/a/denim_fabric
+
+Terrex Fast X GTX from Google Scanned Objects. Copyright 2020 Google LLC.
+https://app.gazebosim.org/GoogleResearch/fuel/models/TERREX_FAST_X_GTX
+https://creativecommons.org/licenses/by/4.0/
+The trail-shoe scan was scaled, mirrored, retinted and adapted to a load-bearing sole. Full credits for the footwear and cloth are in art/walker-CREDITS.txt.
+
+离开首帧机位后新显露的木纹、地表与水中入射光，部分采用本次生成的辅助视图校准。影片由同一三维场景逐帧渲染。
+
+第一人称镜头的步态和落脚缓冲参考 Carnegie Mellon University Motion Capture Database 的 113_25（平地行走）及 113_19（下阶）。
+The data used in this project was obtained from mocap.cs.cmu.edu. The database was created with funding from NSF EIA-0196217.
+https://mocap.cs.cmu.edu/
+The camera uses fitted head-motion coefficients retargeted to the measured path, canoe and foot contacts.

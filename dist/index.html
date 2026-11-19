@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#181d19">
+  <meta name="description" content="沿栈桥登舟，回望林间木屋。拖动画面，在浏览器中环顾实时绘制的松岸。">
+  <meta http-equiv="Content-Security-Policy" content="media-src 'none'; object-src 'none'; base-uri 'self'">
+  <title>松岸 · 实时场景</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='8' fill='%231b231e'/%3E%3Cpath d='m5 24 9-11 7 8 5-7 9 10M7 29h26' fill='none' stroke='%23d0bd8e' stroke-width='2'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./site.css">
+</head>
+<body>
+<main class="theater">
+  <section class="visual-column" aria-label="实时三维场景">
+    <div id="stage" class="stage">
+      <canvas id="scene" tabindex="0" aria-label="松岸三维场景。拖动或使用方向键环顾，Home 键复位。"></canvas>
+      <div class="message" role="status" id="loading"><span class="spinner" aria-hidden="true"></span><span id="message">正在载入松岸</span><button id="retry" hidden>重新载入</button></div>
+      <button id="full" aria-label="切换全屏" title="切换全屏"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 4H4v5m11-5h5v5M4 15v5h5m11-5v5h-5"/></svg></button>
+    </div>
+    <div class="playbar">
+      <button id="play" aria-label="开始漫游" title="开始或暂停漫游（空格）" disabled><svg viewBox="0 0 24 24" aria-hidden="true"><path id="playIcon" d="M7 4.8 20 12 7 19.2Z"/></svg></button>
+      <time id="time">00:00</time>
+      <input type="range" id="seek" min="0" max="287" step="1" value="0" aria-label="运镜位置" disabled>
+      <span>00:12</span>
+    </div>
+  </section>
+  <aside class="notes">
+    <header><span class="english" lang="en">Pinewater</span><h1>松岸</h1><p>沿栈桥登舟，回望林间木屋。</p></header>
+    <p class="details">实时三维场景 <span>·</span> 12 秒漫游</p>
+    <nav class="chapters" aria-label="运镜章节">
+      <button data-frame="0" aria-current="step" disabled><time>00:00</time><span>沿栈桥</span></button>
+      <button data-frame="168" disabled><time>00:07</time><span>跨入木舟</span></button>
+      <button data-frame="192" disabled><time>00:08</time><span>回望门廊</span></button>
+    </nav>
+    <div class="look-controls"><span>拖动画面，360° 环顾</span><button id="reset" disabled>视角复位</button></div>
+  </aside>
+</main>
+<script type="module" src="./viewer.js"></script>
+</body>
+</html>
